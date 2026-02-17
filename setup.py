@@ -20,9 +20,9 @@ setuptools.setup(
     description="A small python package for CNN app",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    url="https://github.com/codedbydimpal/chest-cancer-classification-using-mlflow-dvc",
     project_urls={
-        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
+        "Bug Tracker": "https://github.com/codedbydimpal/chest-cancer-classification-using-mlflow-dvc/issues",
     },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src")
