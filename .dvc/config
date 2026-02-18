@@ -1,0 +1,7 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/codedbydimpal/chest-cancer-classification-using-mlflow-dvc.dvc
+    auth = basic
+    user = codedbydimpal
+    password = 84bbd6cab4fb837c0aa24401c23d6a2cef9bf40f

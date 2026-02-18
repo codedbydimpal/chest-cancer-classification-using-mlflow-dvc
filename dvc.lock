@@ -12,7 +12,7 @@ stages:
       md5: 78c36866c67927f1a2e2e6f3814c21aa
       size: 916
     outs:
-    - path: artifacts/data_ingestion/Chest-CT-Scan-data
+    - path: artifacts/data_ingestion/CHEST-CT-SCAN-DATASET
       hash: md5
       md5: 904fa45d934ce879b3b1933dca6cb2f1.dir
       size: 49247431
@@ -47,7 +47,7 @@ stages:
   training:
     cmd: python src/cnnClassifier/pipeline/stage_03_model_trainer.py
     deps:
-    - path: artifacts/data_ingestion/Chest-CT-Scan-data
+    - path: artifacts/data_ingestion/CHEST-CT-SCAN-DATASET
       hash: md5
       md5: 904fa45d934ce879b3b1933dca6cb2f1.dir
       size: 49247431
@@ -82,7 +82,7 @@ stages:
   evaluation:
     cmd: python src/cnnClassifier/pipeline/stage_04_model_evaluation.py
     deps:
-    - path: artifacts/data_ingestion/Chest-CT-Scan-data
+    - path: artifacts/data_ingestion/CHEST-CT-SCAN-DATASET
       hash: md5
       md5: 904fa45d934ce879b3b1933dca6cb2f1.dir
       size: 49247431
